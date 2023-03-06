@@ -1,7 +1,12 @@
-# AppToken
+# Frontend Token Virtual
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.5.
+Este proyecto fue generado con [Angular CLI](https://github.com/angular/angular-cli) version 15.1.5.
 
+El desarrollo del backend para la creación del API se encuentra en el siguiente [link]().
+
+## Preview
+![Ventana del Home](./img/home.png)
+![Ventana del token virtual](./img/token_virtual.png)
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
