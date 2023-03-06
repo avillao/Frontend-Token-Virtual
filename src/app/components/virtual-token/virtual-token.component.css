@@ -1,0 +1,12 @@
+#body-container > div:nth-child(1) {
+  font-size: 30px;
+  color: white;
+  font-weight: 600;
+}
+
+#body-container > div:nth-child(3) {
+  font-size: 18px;
+  color: #ccc;
+  font-weight: 500;
+}
+

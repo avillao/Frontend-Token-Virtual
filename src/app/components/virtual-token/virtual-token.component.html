@@ -1,0 +1,26 @@
+<div class="h-100">
+  <mat-toolbar color="primary">
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with arrow_back icon" [routerLink]="['/home']">
+      <mat-icon>arrow_back</mat-icon>
+    </button>
+    <span>Token Virtual</span>
+    <span class="example-spacer"></span>
+  </mat-toolbar>
+
+  <div id="body-container" class="p-3 d-flex justify-content-center align-items-center h-75 flex-column">
+
+    <div class="w-50 text-center my-3">
+      {{token}}
+    </div>
+
+    <div class="p-3 w-50">
+      <mat-progress-bar color="primary" mode="determinate" value="{{progress}}"></mat-progress-bar>
+    </div>
+
+    <div class="w-50 text-center">
+      <div *ngIf="time >= 0">{{time}}s</div>
+      <div *ngIf="time < 0">0s</div>
+    </div>
+
+  </div>
+</div>
