@@ -2,7 +2,7 @@
 
 Este proyecto fue generado con [Angular CLI](https://github.com/angular/angular-cli) version 15.1.5.
 
-El desarrollo del backend para la creación del API se encuentra en el siguiente [link]().
+El desarrollo del backend para la creación del API se encuentra en el siguiente [link](https://github.com/avillao/backend_token_virtual).
 
 ## Preview
 ![Ventana del Home](./img/home.png)
